@@ -77,9 +77,9 @@ namespace Microsoft.eShopWeb.Infrastructure.Data
         {
             return new List<CatalogItem>()
             {
-                new CatalogItem() { CatalogTypeId=1,CatalogBrandId=1, Description = "Cup of Lemonade", Name = "Lemonade", Price = 0.5M, PictureUri = "http://catalogbaseurltobereplaced/images/products/1.png" },
+                new CatalogItem() { CatalogTypeId=1,CatalogBrandId=1, Description = "Cup of Lemonade", Name = "Lemonade", Price = 0.5M, PictureUri = "http://catalogbaseurltobereplaced/images/products/lemonade_cup.png" },
                 new CatalogItem() { CatalogTypeId=1,CatalogBrandId=1, Description = "Bottle of Lemonade", Name = "Lemonade(s)", Price = 2.0M, PictureUri = "http://catalogbaseurltobereplaced/images/products/lemonade-clipart.png" },
-                new CatalogItem() { CatalogTypeId=1,CatalogBrandId=2, Description = "Milk Shake", Name = "Milk Shake", Price= 1.00M, PictureUri = "http://catalogbaseurltobereplaced/images/products/2.png" },
+                new CatalogItem() { CatalogTypeId=1,CatalogBrandId=2, Description = "Milk Shake", Name = "Milk Shake", Price= 1.00M, PictureUri = "http://catalogbaseurltobereplaced/images/products/milk_shake.png" },
             };
         }
     }

@@ -70,7 +70,7 @@ namespace Microsoft.eShopWeb.Web
       // https://www.microsoft.com/en-us/download/details.aspx?id=54284
       var connStr = Configuration.GetConnectionString(
         Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") == "Production"
-          ? "CatalogProdConnection"
+          ? "CatalogProdConn"
           : "CatalogConnection");
 
       services.AddDbContext<CatalogContext>(c =>

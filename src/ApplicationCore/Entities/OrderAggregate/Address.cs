@@ -23,7 +23,7 @@ namespace Microsoft.eShopWeb.ApplicationCore.Entities.OrderAggregate
 
     public String ZipCode { get; private set; }
 
-    public Address(string street)
+    public Address(string street) : this()
     {
       Street = street;
     }

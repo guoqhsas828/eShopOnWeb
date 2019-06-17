@@ -10,19 +10,19 @@
     <div class="container">
         <section class="esh-orders-detail-section">
             <article class="esh-orders-detail-titles row">
-                <section class="esh-orders-detail-title col-xs-3">Order number</section>
+                <section class="esh-orders-detail-title col-xs-2">Order#</section>
                 <section class="esh-orders-detail-title col-xs-3">Date</section>
                 <section class="esh-orders-detail-title col-xs-2">Total</section>
-                <section class="esh-orders-detail-title col-xs-3">Status</section>
-                <section class="esh-orders-detail-title col-xs-3">Notes</section>
+                <section class="esh-orders-detail-title col-xs-2">Status</section>
+                <section class="esh-orders-detail-title col-xs-2">Notes</section>
             </article>
 
             <article class="esh-orders-detail-items row">
-                <section class="esh-orders-detail-item col-xs-3">@Model.OrderNumber</section>
+                <section class="esh-orders-detail-item col-xs-2">@Model.OrderNumber</section>
                 <section class="esh-orders-detail-item col-xs-3">@Model.OrderDate</section>
                 <section class="esh-orders-detail-item col-xs-2">$@Model.Total.ToString("N2")</section>
-                <section class="esh-orders-detail-item col-xs-3">@Model.Status</section>
-                <section class="esh-orders-detail-item col-xs-3">@Model.OrderNotes</section>
+                <section class="esh-orders-detail-item col-xs-2">@Model.Status</section>
+                <section class="esh-orders-detail-item col-xs-2">@Model.OrderNotes</section>
             </article>
         </section>
 
@@ -40,7 +40,7 @@
             </article>
 
             <article class="esh-orders-detail-items row">
-                <section class="esh-orders-detail-item col-xs-12">@Model.ShippingAddress.Country</section>
+                <section class="esh-orders-detail-item col-xs-12">@Model.ShippingAddress.State</section>
             </article>
         </section>
 
