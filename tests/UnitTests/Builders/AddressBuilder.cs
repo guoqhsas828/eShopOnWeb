@@ -21,7 +21,7 @@ namespace Microsoft.eShopWeb.UnitTests.Builders
         }
         public Address WithDefaultValues()
         {
-            _address = new Address(TestStreet, TestCity, TestState, TestCountry, TestZipCode);
+            _address = new Address(TestStreet);
             return _address;
         }
     }
